@@ -1,0 +1,142 @@
+
+body
+{
+	background-image: url(finalLogin.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+fieldset
+{
+	background-color: #fff;
+	border-radius: 10px;
+	margin-top: 50px;
+	position: relative;
+	overflow: hidden;
+	width: 1000px;
+	max-width: 100%;
+	min-height: 480px;
+}
+img
+{
+	width: 50%;
+	margin: 1%;
+	float: left;
+}
+.form-container {
+	left: 450px;
+	position: absolute;
+	width: 40%;
+	text-align: left;
+	float: right;
+}
+form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 20px 10px 10px 20px;
+	height: 100%;
+	text-align: center;
+	float: right;
+}
+input {
+	background-color: rgba(0,0,255,0.2);
+	border-radius: 5px;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+}
+h1 {
+	font-weight: bold;
+	margin: 0;
+	float: left;
+
+}
+span 
+{
+	font-size: 12px;
+	color: rgba(0,0,0,0.6)
+}
+
+a {
+	color: #5692f9;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 15px 0;
+}
+
+button {
+	border-radius: 5px;
+	background-color: rgba(0,0,255,0.7);
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+.social-container {
+	margin: 20px 0;
+}
+
+.social-container a {
+	border: 1px solid #DDDDDD;
+	border-radius: 50%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 5px;
+	height: 40px;
+	width: 40px;
+}
+
+div.gallery {
+  margin: 20px 10px 10px 20px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 150px; 
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 50%;
+}
+
+div.desc {
+  padding: 8px;
+  text-align: center;
+}
+.btn{
+	align-content: center;
+	
+	/* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.btn{
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+fieldset{
+  width: 800px;
+  height: 530px;
+  margin: 70px 80px 20px 80px;
+  padding: 23px;
+}
